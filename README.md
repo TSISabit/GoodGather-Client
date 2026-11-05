@@ -2,7 +2,7 @@
 
 GoodGather is a modern, responsive single-page web platform designed for communities across Bangladesh to organize, discover, and join social service activities (e.g., winter blanket distribution, urban cleanups, tree plantation drives).
 
-- **Live URL**: [https://goodgather.vercel.app](https://goodgather.vercel.app)
+- **Live URL**: [https://good-gather-gilt.vercel.app/](https://good-gather-gilt.vercel.app/)
 - **Server API**: [https://goodgather-server.onrender.com](https://goodgather-server.onrender.com)
 
 ## Key Features
