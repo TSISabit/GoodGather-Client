@@ -9,13 +9,17 @@ export interface EventItem {
   _id: string;
   title: string;
   description: string;
-  eventType: 'Cleanup' | 'Plantation' | 'Donation' | 'Healthcare' | 'Education' | 'Other';
-  thumbnailUrl: string;
-  location: string;
   eventDate: string;
-  creatorEmail: string;
-  creatorName: string;
-  createdAt: string;
+  location: string;
+  eventType?: 'Cleanup' | 'Plantation' | 'Donation' | 'Healthcare' | 'Education' | 'Other' | string;
+  category?: string;
+  thumbnailUrl: string;
+  creatorId?: string;
+  creatorEmail?: string;
+  creatorName?: string;
+  joinedUsers?: string[];
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export interface JoinedEventItem {
